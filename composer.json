@@ -1,0 +1,23 @@
+{
+    "name": "digitalformula/hello-world",
+    "description": "Package for testing blog article about Packagist",
+    "license": "MIT",
+	"keywords": [ "test" ],
+    "authors": [
+        {
+            "name": "Chris Rasmussen",
+            "email": "packages@digitalformula.net",
+            "homepage": "http://digitalformula.net",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "DigitalFormula\\HelloWorld": "src/"
+        }
+    }
+}
